@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdfdfd;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #ff6ec4, #7873f5);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.secao {
+  padding: 2rem 1.5rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.colorida {
+  background-color: #f0f8ff;
+}
+
+h2 {
+  color: #5c33f6;
+}
+
+ul li {
+  margin: 0.5rem 0;
+}
+
+.mito-verdade {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.mito-verdade:hover {
+  background-color: #f9f9f9;
+}
+
+.resposta {
+  display: none;
+  margin-top: 0.5rem;
+  color: #444;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #5c33f6;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  font-size: 0.9rem;
+}
