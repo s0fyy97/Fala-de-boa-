@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fala de Boa - Informações sobre ISTs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Fala de Boa</h1>
+    <p>Informação sem tabu sobre ISTs</p>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#prevencao">Prevenção</a>
+      <a href="#mitos">Mitos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre" class="secao">
+    <h2>O que são ISTs?</h2>
+    <p>As Infecções Sexualmente Transmissíveis (ISTs) são causadas por vírus, bactérias ou outros microrganismos. Muitas pessoas têm e nem sabem. Com informação, tudo fica mais fácil de lidar.</p>
+  </section>
+
+  <section id="prevencao" class="secao colorida">
+    <h2>Prevenção e Cuidados</h2>
+    <ul>
+      <li>Use camisinha (interna ou externa)</li>
+      <li>Faça exames regularmente</li>
+      <li>Converse com seus parceiros</li>
+      <li>Considere PrEP e PEP (para o HIV)</li>
+    </ul>
+  </section>
+
+  <section id="mitos" class="secao">
+    <h2>Mitos & Verdades</h2>
+    <div class="mito-verdade" onclick="mostrarResposta(this)">
+      <p class="pergunta">IST só pega quem não se cuida?</p>
+      <p class="resposta">Mito! Até quem se cuida pode se expor. A diferença está em saber e tratar!</p>
+    </div>
+    <div class="mito-verdade" onclick="mostrarResposta(this)">
+      <p class="pergunta">Dá pra ter IST sem sintomas?</p>
+      <p class="resposta">Verdade! Muitas ISTs não mostram sinais logo de cara. Por isso, os testes são tão importantes.</p>
+    </div>
+  </section>
+
+  <section id="contato" class="secao colorida">
+    <h2>Fale com a Gente</h2>
+    <form id="form-contato">
+      <input type="text" placeholder="Seu nome" required />
+      <input type="email" placeholder="Seu e-mail" required />
+      <textarea placeholder="Sua dúvida ou comentário"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="mensagem-enviada"></p>
+  </section>
+
+  <footer>
+    <p>Referências: Ministério da Saúde, OMS, UNAIDS</p>
+    <p>Este site é informativo e não substitui consulta médica.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
