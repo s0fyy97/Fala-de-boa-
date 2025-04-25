@@ -1,15 +1,18 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: #fdfdfd;
-  color: #333;
+  /* Experimente um branco levemente colorido ou um gradiente sutil */
+  background: #f5faff; /* Um branco azulado bem claro */
+  color: #555; /* Um cinza um pouco mais claro */
 }
 
 header {
-  background: linear-gradient(to right, #ff6ec4, #7873f5);
+  /* Cores mais intensas e talvez diferentes */
+  background: linear-gradient(to right, #ff4081, #6a1b9a); /* Rosa choque e roxo profundo */
   color: white;
   text-align: center;
   padding: 2rem 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
 }
 
 nav a {
@@ -17,6 +20,11 @@ nav a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+nav a:hover {
+  color: #fdd835; /* Um amarelo vibrante ao passar o mouse */
 }
 
 .secao {
@@ -26,28 +34,16 @@ nav a {
 }
 
 .colorida {
-  background-color: #f0f8ff;
+  /* Uma cor mais vibrante ou um gradiente suave */
+  background: linear-gradient(to bottom, #a7ffeb, #fbc02d); /* Verde água e amarelo */
 }
 
 h2 {
-  color: #5c33f6;
-}
-
-ul li {
-  margin: 0.5rem 0;
-}
-
-.mito-verdade {
-  border: 1px solid #ccc;
-  padding: 1rem;
-  margin: 1rem 0;
-  cursor: pointer;
-  border-radius: 10px;
-  transition: background 0.3s ease;
+  color: #d32f2f; /* Um vermelho vibrante */
 }
 
 .mito-verdade:hover {
-  background-color: #f9f9f9;
+  background-color: #bbdefb; /* Um azul claro e vibrante no hover */
 }
 
 .resposta {
@@ -56,13 +52,18 @@ ul li {
   color: #444;
 }
 
-form input, form textarea {
-  display: block;
-  width: 100%;
-  margin: 0.5rem 0;
+form button {
+  background-color: #00c853; /* Um verde vibrante para o botão */
+  color: white;
   padding: 0.75rem;
+  border: none;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transição suave no hover */
+}
+
+form button:hover {
+  background-color: #00a547; /* Um tom mais escuro no hover */
 }
 
 form button {
